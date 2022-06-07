@@ -3,7 +3,7 @@ void postorderIter{
   vector<int> postorder;
   Node* temp,*curr;
   curr=root;
-  while(true){
+  while(!s.empty()){
     if(curr){
       s.push(curr);
       curr=curr->left;
