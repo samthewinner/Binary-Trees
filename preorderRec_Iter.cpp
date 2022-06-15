@@ -1,6 +1,6 @@
 void preorderIter(Node* root)
 {
-  stack<int> s;
+  stack<Node*> s;
   s.push(root);
   while(!s.empty()){
     Node* temp = s.top();
